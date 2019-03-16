@@ -10,7 +10,7 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-.breadcrumb{
-  padding:5px 10px;
+.breadcrumb {
+  padding: 5px 10px;
 }
 </style>

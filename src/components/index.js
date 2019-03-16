@@ -1,6 +1,7 @@
 import pagination from "./pagination";
+import filtration from "./filtration";
 
-const components = { pagination };
+const components = { pagination, filtration };
 
 export default {
   install: function(Vue) {
