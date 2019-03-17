@@ -5,6 +5,7 @@ import store from "./vuex/store";
 import ElementUI from "element-ui";
 import commonComponents from "@/components";
 import "@/assets/style/reset.css";
+import "@/assets/icon/icon.css";
 import "element-ui/lib/theme-chalk/index.css";
 import "@/mock";
 Vue.use(commonComponents);
