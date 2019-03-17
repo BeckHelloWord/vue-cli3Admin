@@ -1,7 +1,7 @@
 <template>
   <div>
     <filtration></filtration>
-    
+
     <el-table
       ref="multipleTable"
       :data="tableData3"
@@ -21,7 +21,11 @@
   </div>
 </template>
 <script>
+import { userList } from "@/api/api";
 export default {
+  mounted() {
+    this.init();
+  },
   data() {
     return {
       tableData3: [
@@ -64,7 +68,11 @@ export default {
     };
   },
   methods: {
-    handleSelectionChange() {}
+    init() {
+      userList()
+        .then(res => {})
+        .catch(err => {});
+    }
   }
 };
 </script>

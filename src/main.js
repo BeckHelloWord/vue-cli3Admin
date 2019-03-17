@@ -6,6 +6,7 @@ import ElementUI from "element-ui";
 import commonComponents from "@/components";
 import "@/assets/style/reset.css";
 import "element-ui/lib/theme-chalk/index.css";
+import "@/mock";
 Vue.use(commonComponents);
 Vue.use(ElementUI, { size: "small", zIndex: 3000 });
 
