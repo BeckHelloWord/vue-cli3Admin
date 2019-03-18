@@ -3,6 +3,7 @@
     <filtration></filtration>
 
     <el-table
+      border
       ref="multipleTable"
       :data="tableData3"
       tooltip-effect="dark"
@@ -25,6 +26,7 @@ import { userList } from "@/api/api";
 export default {
   mounted() {
     this.init();
+    console.log(process.env);
   },
   data() {
     return {
@@ -72,7 +74,9 @@ export default {
       userList()
         .then(res => {})
         .catch(err => {});
-    }
+    },
+
+    handleSelectionChange() {}
   }
 };
 </script>

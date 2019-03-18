@@ -17,6 +17,7 @@
 </template>
 <script>
 export default {
+  name: "VPagination",
   data() {
     return {
       currentPage4: 1

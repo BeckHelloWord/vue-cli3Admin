@@ -30,6 +30,7 @@
 </template>
 <script>
 export default {
+  name:"VAside",
   data() {
     return { isCollapse: true };
   },

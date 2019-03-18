@@ -5,6 +5,7 @@
 
 <script>
 export default {
+  name: "VFooter",
   props: {},
   data() {
     return {};
@@ -18,7 +19,7 @@ export default {
 <style lang="scss" scoped>
 .footer {
   height: 50px;
-  background: #ECF5FF;
+  background: #ecf5ff;
 }
 </style>
 

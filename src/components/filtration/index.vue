@@ -4,19 +4,26 @@
       <el-form :inline="true" :model="formInline" class="demo-form-inline">
         <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
-        </el-form-item>        <el-form-item label="审批人">
+        </el-form-item>
+        <el-form-item label="审批人">
           <el-input v-model="formInline.user" placeholder="审批人"></el-input>
         </el-form-item>
       </el-form>
@@ -29,6 +36,7 @@
 </template>
 <script>
 export default {
+  name: "VFiltration",
   components: {},
   data() {
     return {
@@ -47,8 +55,9 @@ export default {
 .filtration {
   display: flex;
   justify-content: space-between;
-  padding:10px 5px;
-  border:1px solid #EBEEF5;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ebeef5;
   .filter {
     flex: 1;
   }

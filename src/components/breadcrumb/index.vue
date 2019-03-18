@@ -7,10 +7,13 @@
   </el-breadcrumb>
 </template>
 <script>
-export default {};
+export default {
+  name: "VBreadcrumb"
+};
 </script>
 <style lang="scss" scoped>
 .breadcrumb {
-  padding: 5px 10px;
+  padding: 10px 20px;
+  border-bottom:1px solid #ebeef5;
 }
 </style>
