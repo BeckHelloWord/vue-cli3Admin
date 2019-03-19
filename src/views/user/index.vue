@@ -1,7 +1,7 @@
 <template>
   <div>
-    <filtration></filtration>
-
+    <filtration v-status="'禁用'"></filtration>
+    {{'aaa'|money}}
     <el-table
       border
       ref="multipleTable"
@@ -23,9 +23,12 @@
 </template>
 <script>
 import { userList } from "@/api/api";
+import myMixin from "@/mixin";
 export default {
+  mixins: [myMixin],
   mounted() {
     this.init();
+    this.foo();
     console.log(process.env);
   },
   data() {
