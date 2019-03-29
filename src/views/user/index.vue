@@ -1,7 +1,6 @@
 <template>
   <div>
     <filtration v-status="'禁用'"></filtration>
-    {{'aaa'|money}}
     <el-table
       border
       ref="multipleTable"

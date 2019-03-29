@@ -1,6 +1,9 @@
 
 <template>
   <el-header class="header">
+    <div class="collapse-btn" @click="collapseChage">
+      <i class="el-icon-menu"></i>
+    </div>
     <div class="logo">
       <span>个人后台管理系统</span>
     </div>
@@ -21,12 +24,14 @@
 </template>
 
 <script>
+import bus from "@/components/bus.js";
 export default {
   name: "VHeader",
   props: {},
   data() {
     return {
-      dialogVisible: false
+      dialogVisible: false,
+      collapse: false
     };
   },
   mounted() {},
@@ -36,7 +41,12 @@ export default {
     updatePassWord() {
       this.dialogVisible = true;
     },
-    handleClose() {}
+    handleClose() {},
+
+    collapseChage() {
+      this.collapse = !this.collapse;
+      bus.$emit("collapse", this.collapse);
+    }
   }
 };
 </script>
