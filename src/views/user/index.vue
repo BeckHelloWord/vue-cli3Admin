@@ -1,14 +1,7 @@
 <template>
   <div>
     <filtration v-status="'禁用'"></filtration>
-    <el-table
-      border
-      ref="multipleTable"
-      :data="tableData3"
-      tooltip-effect="dark"
-      style="width: 100%"
-      @selection-change="handleSelectionChange"
-    >
+    <el-table border ref="multipleTable" :data="tableData3" tooltip-effect="dark" style="width: 100%" @selection-change="handleSelectionChange">
       <el-table-column type="selection" width="55"></el-table-column>
       <el-table-column label="日期" width="120">
         <template slot-scope="scope">{{ scope.row.date }}</template>

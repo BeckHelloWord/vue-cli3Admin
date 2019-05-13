@@ -90,6 +90,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html,body{
+html,
+body {
   height: 100%;
 }

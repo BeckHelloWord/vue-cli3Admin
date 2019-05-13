@@ -1,5 +1,5 @@
 <template>
-  <div>首页</div>
+  <div><div class="index"></div></div>
 </template>
 <script>
 import { userList } from "@/api/api";
@@ -22,4 +22,7 @@ export default {
 };
 </script>
 <style lang="scss">
+.index{
+  height:800px;
+}
 </style>

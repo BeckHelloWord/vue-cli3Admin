@@ -20,8 +20,6 @@ import eFooter from "@/components/footer";
 import eBreadcrumb from "@/components/breadcrumb";
 
 export default {
-  created() {},
-  mounted() {},
   components: {
     eHeader,
     eFooter,
@@ -32,6 +30,8 @@ export default {
   data() {
     return {};
   },
+  created() {},
+  mounted() {},
   methods: {}
 };
 </script>
